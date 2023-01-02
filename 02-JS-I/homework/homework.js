@@ -28,7 +28,8 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
+   
+return str;
 }
 
 function suma(x, y) {
@@ -36,31 +37,36 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   
-}
+ return x + y;
+} 
+
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+ return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   
+  return x / y;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+
+return x === y;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -68,6 +74,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+ return str1 === str2 
 }
 
 function menosQueNoventa(num) {
@@ -75,6 +82,7 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return num < 90 
 }
 
 function mayorQueCincuenta(num) {
@@ -82,12 +90,14 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return num > 50
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   
+return x % y;
 }
 
 function esPar(num) {
@@ -95,6 +105,7 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return num % 2 === 0;
 }
 
 function esImpar(num) {
@@ -102,6 +113,7 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return num % 2 === 1;
 }
 
 function elevarAlCuadrado(num) {

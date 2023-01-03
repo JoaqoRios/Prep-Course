@@ -74,7 +74,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
- return str1 === str2 
+ return str1 === str2;
 }
 
 function menosQueNoventa(num) {
@@ -82,7 +82,7 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-  return num < 90 
+  return num < 90;
 }
 
 function mayorQueCincuenta(num) {
@@ -90,7 +90,7 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-  return num > 50
+  return num > 50;
 }
 
 function obtenerResto(x, y) {
@@ -120,13 +120,14 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+  return num * num;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  
+  return num ** 3;
+
 }
 
 function elevar(num, exponent) {

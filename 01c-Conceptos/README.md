@@ -120,8 +120,8 @@ Son expresiones que se escriben por si mismas, y no utilizan ningún operador. I
 true;
 this;  // hace referencia al keyword this
 numero; // hace referencia a la variable numero
-```
-
+```      
+      
 ## Expresiones de asignación
 
 Cuando utilizamos el operador `=` hablamos de un *assigment expression*. Está expresión retorna el valor asignado. Por ejemplo:
